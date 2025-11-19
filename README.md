@@ -129,7 +129,9 @@ Luego se realizó Grid Search:
 
 <p align="center">
 n_estimators = [10, 15, 20, 25, 30]
-  
+</p>
+
+<p align="center">
 max_depth = [3, 4, 5, 6, 7]
 </p>
 
