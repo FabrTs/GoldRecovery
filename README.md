@@ -127,24 +127,20 @@ Después de probar modelos con CV (cv=5), el mejor fue:
 
 Luego se realizó Grid Search:
 
-<p align="center">
+```
 n_estimators = [10, 15, 20, 25, 30]
-</p>
-
-<p align="center">
 max_depth = [3, 4, 5, 6, 7]
-</p>
+```
 
 #### ✔️ Mejor modelo final:
 
-<p align="center">
+```
   RandomForestRegressor(  
     random_state=12345,    
     n_estimators=30,    
     max_depth=4
     )
-
-</p>
+```
 
 ### 3️⃣ Resultados Finales
 
