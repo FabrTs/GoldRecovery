@@ -26,11 +26,12 @@ La evaluación se realiza con la métrica symmetric Mean Absolute Percentage Err
 <p align="center">
 $sMAPE = \frac{1}{N}\sum_{i=1}^N \frac{|y_i - \hat{y}_i|}{(|y_i| + |\hat{y}_i|)/2} \times 100\%$
 </p>
+  
 El resultado final combina ambas etapas:
 
-<p align="center"> $
-sMAPE_{final} = 0.25 \cdot sMAPE_{rougher} + 0.75 \cdot sMAPE_{final}
-$ </p>
+<p align="center">
+  $sMAPE_{final} = 0.25 \cdot sMAPE_{rougher} + 0.75 \cdot sMAPE_{final}$ 
+</p>
 
 
 ## 🎯 Objetivo
